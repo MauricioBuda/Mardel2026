@@ -1,0 +1,167 @@
+.section-calendario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./../../public/img/Paisaje-montañas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+    #calendario {
+        scroll-margin-top: 30vh;
+    }
+
+.div-calendario {
+  display: flex;
+  margin: 2vh auto;
+  margin-top: 20vh;
+  justify-content: center;
+  gap: 10px;
+  width: 95vw;
+  height: 76dvh;
+  overflow-x: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dia {
+  width: 18vw;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e6f7ffa9;
+  display: flex;
+  flex-direction: column;
+}
+
+.dia h2 {
+  color: white;
+  background-color: #3333335e;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.actividades {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.actividades div {
+    font-size: 1vw;
+    background-color: rgba(1, 33, 93, 0.274);
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* MODAL */
+
+/* Modal fondo */
+.modal {
+  display: none; /* oculto por defecto */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.494);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenido del modal */
+.modal-titulo {
+    margin-bottom: 2vh;
+}
+.modal-contenido {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefec1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-actividades div {
+  text-align: center;
+  margin-top: 4vh;
+  background-color: rgba(255, 255, 255, 0.581);
+  padding: 1vh 1vw;
+  border-radius: 10px;
+}
+
+/* Botón cerrar */
+.cerrar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 524px) {
+
+    #calendario {
+        scroll-margin-top: 14vh;
+    }
+
+.div-calendario {
+    display: grid; /* usamos grid en lugar de flex */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(2, auto);   /* 2 filas */
+    gap: 10px;
+    overflow: visible;
+    height: 75vh;
+    margin: 8vh auto;
+  }
+
+  .dia {
+    width: 22vw; 
+    height: 38vh; 
+    font-size: 14px;
+  }
+
+.dia h2 {
+  font-size: 2.5vw;
+  padding: 5px 0;
+}
+
+  .actividades div {
+    font-size: 2.8vw;
+  }
+
+   }
