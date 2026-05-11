@@ -1,6 +1,6 @@
 function startCountdown() {
-  const targetDate = new Date("2025-11-29T07:00:00");
-  const originalTitle = "Mendoza 2025 ♥"; // título original
+    const targetDate = new Date("2026-05-23T08:00:00");
+    const originalTitle = "Mardel 2026 ♥"; // título original
 
   const updateCountdown = () => {
     const now = new Date().getTime();
