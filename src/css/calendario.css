@@ -17,7 +17,7 @@
 
 .div-calendario {
   display: flex;
-  margin: 2vh auto;
+  margin: 7vh auto;
   justify-content: center;
   gap: 10px;
   width: 95vw;
