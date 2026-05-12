@@ -5,8 +5,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 .div-comprobantes {
@@ -57,6 +55,11 @@
 
    @media screen and (max-width: 524px) {
 
+
+.section-comprobantes {
+  background-image: url('./../../public/img/ReinaHarryMobile.jpg');
+    }
+
 .div-comprobantes {
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
@@ -64,9 +67,9 @@
 }
 
 .card {
-    height: 18vh;
+    height: 19vh;
     justify-content: center;
-    margin-bottom: 10vw;
+    /* margin-bottom: 10vw; */
 }
 
 .card h2, .card a {
