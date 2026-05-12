@@ -3,12 +3,12 @@
   "short_name": "Mendoza",
   "icons": [
     {
-      "src": "/Mendoza/public/img/Montana192.png",
+      "src": "/Mendoza/public/img/LoboMarino.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/Mendoza/public/img/Montana512.png",
+      "src": "/Mendoza/public/img/LoboMarino.png",
       "sizes": "512x512",
       "type": "image/png"
     }
