@@ -11,48 +11,56 @@ const cerrarBtn = document.querySelector('.cerrar');
 
 // Datos detallados por día (puedes editar estos)
 const detallesDias = {
-  "Sábado 29": [
+  "Sábado 23": [
     "Salimos entre 08 y 09 de la mañana para Villa Mercedes (aprox 8hs de manejo)",
     "Villa Mercedes queda en San Luis, en Europa 261. El check in es a las 15 hs y check out 11 hs",
     "El alojamiento cuenta con sábanas!",
     "Cenaríamos en el hotel",
   ],
-  "Domingo 30": [
+  "Domingo 24": [
     "Salimos hacia Mendoza. Restan unas 4 o 5 hs de manejo",
     "El alojamiento queda en Calle 2, manzana 5, lote 8, Potrerillos",
     "También cuenta con sábanas!",
     "Hacer la compra general, incluído lo que comen las fieras",
     "Cenamos en el hotel"
   ],
-  "Lunes 1": [
+  "Lunes 25": [
     "Día libre!",
     "Recorrer pueblito!",
     "Disfrutar con niños",
   ],
-  "Martes 2": [
+  "Martes 26": [
     "Desayunamos en casita",
     "Degustación de aceites a las 11.30 hs (1 hora y medida aprox de viaje)",
     "Almorzamos 12.30hs en Laur",
     "Termas de Cacheuta 15 hs (1 hs de viaje)",
     "Volvemos a la casita (40 min de viaje)"
   ],
-  "Miércoles 3": [
+  "Miércoles 27": [
     "Desayuno en la casita",
     "Rafting 11 hs. Hay que llegar 10.30 hs (30 min de viaje)",
     "Llevar ropa seca, toallón, shampoo, jabón, etc",
     "Ir para el centro a recorrer y almorzar (1 hs de viaje)",
     "Volvemos a la casita y cenamos ahí"
   ],
-  "Jueves 4": [
+  "Jueves 28": [
     "Día libre!",
     "Armar las valijas lamentablemente rosita"
   ],
-  "Viernes 5": [
+  "Viernes 29": [
     "Check out de la casita 11 hs",
     "Salimos para Rufino, Santa Fé (8 hs aprox de viaje)",
     "El alojamiento queda en José ingenieros 50. Check out a las 12 hs"
   ],
-  "Sábado 6": [
+  "Sábado 30": [
+    "Arrancamos viaje para nuestro cuchitril!!",
+    "Ver que vamos a comer",
+  ],
+  "Domingo 31": [
+    "Arrancamos viaje para nuestro cuchitril!!",
+    "Ver que vamos a comer",
+  ],
+  "Lunes 1": [
     "Arrancamos viaje para nuestro cuchitril!!",
     "Ver que vamos a comer",
   ],
