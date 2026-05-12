@@ -1,11 +1,13 @@
 .section-calendario{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-image: url(./../../public/img/mdqnoche.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 12vh;
+    box-sizing: border-box;
 }
 
 
@@ -16,7 +18,6 @@
 .div-calendario {
   display: flex;
   margin: 2vh auto;
-  margin-top: 20vh;
   justify-content: center;
   gap: 10px;
   width: 95vw;
@@ -74,6 +75,12 @@
 /* MODAL */
 
 /* Modal fondo */
+
+.actividades {
+  gap: 3vh;
+}
+
+
 .modal {
   display: none; /* oculto por defecto */
   position: fixed;
@@ -140,14 +147,14 @@
     }
 
 .div-calendario {
-    display: grid; /* usamos grid en lugar de flex */
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    grid-template-rows: repeat(2, auto);   /* 2 filas */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 10px;
     overflow: visible;
-    height: 75vh;
-    margin: 8vh auto;
-  }
+    height: auto;
+    margin: 0 auto;
+}
 
   .dia {
     width: 22vw; 
