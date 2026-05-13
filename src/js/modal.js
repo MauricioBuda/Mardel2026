@@ -12,57 +12,54 @@ const cerrarBtn = document.querySelector('.cerrar');
 // Datos detallados por día (puedes editar estos)
 const detallesDias = {
   "Sábado 23": [
-    "Salimos entre 08 y 09 de la mañana para Villa Mercedes (aprox 8hs de manejo)",
-    "Villa Mercedes queda en San Luis, en Europa 261. El check in es a las 15 hs y check out 11 hs",
-    "El alojamiento cuenta con sábanas!",
-    "Cenaríamos en el hotel",
+    "Salimos tipo 09 hs de casita",
+    "Paramos en La Matera Lezama a almorzar",
+    "Deberíamos llegar tipo 15 o 16 hs y vamos a hacer compra general",
+    "Para cenar pedimos delibery",
   ],
   "Domingo 24": [
-    "Salimos hacia Mendoza. Restan unas 4 o 5 hs de manejo",
-    "El alojamiento queda en Calle 2, manzana 5, lote 8, Potrerillos",
-    "También cuenta con sábanas!",
-    "Hacer la compra general, incluído lo que comen las fieras",
-    "Cenamos en el hotel"
+    "Almorzamos en Crossi!!",
+    "Jugamos 20 lineas de bowling je",
   ],
   "Lunes 25": [
-    "Día libre!",
-    "Recorrer pueblito!",
-    "Disfrutar con niños",
+    "Merendamos en Little Ofelia",
+    "Vamos a ver el mar con el tapir",
+    "Las olas y el viento sucundum sucundum",
   ],
   "Martes 26": [
-    "Desayunamos en casita",
-    "Degustación de aceites a las 11.30 hs (1 hora y medida aprox de viaje)",
-    "Almorzamos 12.30hs en Laur",
-    "Termas de Cacheuta 15 hs (1 hs de viaje)",
-    "Volvemos a la casita (40 min de viaje)"
+    "Comemos acai viendo el mar",
+    "Cenamos en nuestro barcito",
   ],
   "Miércoles 27": [
-    "Desayuno en la casita",
-    "Rafting 11 hs. Hay que llegar 10.30 hs (30 min de viaje)",
-    "Llevar ropa seca, toallón, shampoo, jabón, etc",
-    "Ir para el centro a recorrer y almorzar (1 hs de viaje)",
-    "Volvemos a la casita y cenamos ahí"
+    "Masajes 15 hs 14 de julio 2486",
+    "Merienda en Heraldooo!",
   ],
   "Jueves 28": [
-    "Día libre!",
-    "Armar las valijas lamentablemente rosita"
+    "Visita a Luccianos 10 hs",
+    "Posiblemente nos llenemos ahi asi que no almorzaríamos",
+    "Sale esa siesta furiosa",
+    "Manolito",
+    "Sacoa!",
+    "Bingo a recuperar biyuyaaa"
   ],
   "Viernes 29": [
-    "Check out de la casita 11 hs",
-    "Salimos para Rufino, Santa Fé (8 hs aprox de viaje)",
-    "El alojamiento queda en José ingenieros 50. Check out a las 12 hs"
+    "Visitamos a los parientes de la gordi (puerto)",
+    "Merendamos en Dinette",
+    "Barcitoooo"
   ],
   "Sábado 30": [
-    "Arrancamos viaje para nuestro cuchitril!!",
-    "Ver que vamos a comer",
+    "En general, pachorra",
+    "Acai de nuevo je",
+    "Bowling 17 hs"
   ],
   "Domingo 31": [
-    "Arrancamos viaje para nuestro cuchitril!!",
-    "Ver que vamos a comer",
+    "Limpieza y armado de valijas :(",
+    "Vueltita a casa!",
   ],
   "Lunes 1": [
-    "Arrancamos viaje para nuestro cuchitril!!",
-    "Ver que vamos a comer",
+    "re-conectamos con nuestro cuchitril!!",
+    "Lavamos ropa",
+    "Lloramos ahre"
   ],
 };
 
