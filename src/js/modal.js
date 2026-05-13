@@ -27,11 +27,11 @@ const detallesDias = {
     "Las olas y el viento sucundum sucundum",
   ],
   "Martes 26": [
-    "Comemos acai viendo el mar",
+    "Comemos acai viendo el mar ♥",
     "Cenamos en nuestro barcito",
   ],
   "Miércoles 27": [
-    "Masajes 15 hs 14 de julio 2486",
+    "Masajes 15 hs en 14 de julio 2486",
     "Merienda en Heraldooo!",
   ],
   "Jueves 28": [
@@ -57,7 +57,7 @@ const detallesDias = {
     "Vueltita a casa!",
   ],
   "Lunes 1": [
-    "re-conectamos con nuestro cuchitril!!",
+    "Re-conectamos con nuestro cuchitril!!",
     "Lavamos ropa",
     "Lloramos ahre"
   ],
