@@ -3,17 +3,17 @@
   "short_name": "Mardel 2026",
   "icons": [
     {
-      "src": "mardel2026/public/img/LoboMarino.png",
+      "src": "/img/LoboMarino.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "mardel2026/public/img/LoboMarino.png",
+      "src": "/img/LoboMarino.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff"
